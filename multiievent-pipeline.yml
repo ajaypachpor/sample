@@ -1,0 +1,12 @@
+ame: multi-event-pipeline / workflow
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  on-push:
+    run-on: ubbuntu-latest
+    steps:
+      -name : "on push event"
+      run: echo "This job runs on push to master branch"
