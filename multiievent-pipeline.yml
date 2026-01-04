@@ -1,8 +1,9 @@
-ame: multi-event-pipeline / workflow
+name: multi-event-pipeline / workflow
 on:
   push:
     branches:
       - master
+      - test
 
 jobs:
   on-push:
